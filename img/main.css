@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+header{
+    background-color: #9c5433;
+    list-style-type: none;
+ 
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+   background-color: 32328069;
+   position: sticky;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: block;
+    transition: 1s;
+}
+.activeNav{
+   background-color: #32328069;
+   color: #9c5433; 
+   border-radius: 5px;
+   transition: 1s;
+}
+
+a:hover{
+    transform: scale(1.5);
+}
+button{
+    border-radius: 5px;
+    
+}
+
+
+
+
+
+
+main{
+   margin: 20px;
+   height: 70vh;
+
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card img{
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+/* sobre nosotros */
+
+.nosotros_container{
+    display: flex;
+    height: 50%;
+}
+
+.nosotros__cards{
+   padding: 10px;
+   gap: 10px; 
+}
+
+
+
+
+/* contacto */
+.contenedor-form-text{
+    display: flex;
+    
+}
+
+.contacto_container{
+    display: inline-block;
+    padding: 20px;
+    gap: 20px;
+    width: 50%;
+}
+.text_container{
+    justify-content: center;
+    width: 50%;
+}
+
+fieldset{
+   border: none;
+}
+.contacto_boton{
+    background-color: aqua;
+    width: 5rem;
+    height: 2rem;
+    transition: 1.5s;
+}
+
+.contacto_boton:hover{
+transform: scale(1.8);
+}
+.contenedor-form-text{
+    display: flex;
+}
+footer{
+height: 10vh;
+background-color: aqua;
+display: flex;
+justify-content: space-evenly;
+}
+
+/* #instagram{
+    display: block;
+} */
