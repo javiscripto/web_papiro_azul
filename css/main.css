@@ -14,10 +14,13 @@ header{
 }
 
 .nav{
+    background-color: rgba(255, 166, 0, 0.418);
+    border-radius: .4rem;
     display: flex;
     justify-content: space-evenly;
     padding: .5rem;
     gap: .5rem;
+    margin: 10px;
 }
 
 
