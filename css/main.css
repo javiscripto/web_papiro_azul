@@ -72,7 +72,8 @@ box-shadow: 0 2px 0 0 ;
     /* width: 700px; */
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(4,1fr);
+    /* grid-template-rows: repeat(4,1fr); */
+    grid-template-rows: auto;
     grid-template-areas: "img1 img1 parrafo1 parrafo2"
                         "img1 img1 parrafo3 parrafo4"
                         "img2 img2 parrafo5 parrafo6"
