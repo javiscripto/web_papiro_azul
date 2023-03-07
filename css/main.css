@@ -49,11 +49,27 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 2.5rem ;
+}
+
+.card-slider{
+    text-align: center;
+    background-color: rgb(1, 121, 121) ;
+    border-radius: 10px;
+}
+.nosotros_container{
+    display: flex;
+    height: 50%;
+}
+
+.nosotros__cards{
+   padding: 10px;
+   gap: 10px; 
 }
 .card{
     width: 200px;
-    height:200px;
-    background-color: aqua;
+    height:300px;
+    /* background-color: aqua; */
 
     margin: .5rem;
     padding: .5rem;
@@ -65,6 +81,7 @@ main{
     border-radius: 3px;
 box-shadow: 0 2px 0 0 ;
 }
+
 
 /* contenedor grid */
 
@@ -120,7 +137,40 @@ box-shadow: 0 2px 0 0 ;
     height: 200px;
 }
 
+/* contacto */
 
+.contenedor-form-text{
+    display: flex;
+    
+}
+
+.contacto_container{
+    display: inline-block;
+    padding: 20px;
+    gap: 20px;
+    width: 50%;
+}
+.text_container{
+    justify-content: center;
+    width: 50%;
+}
+
+fieldset{
+   border: none;
+}
+.contacto_boton{
+    background-color: aqua;
+    width: 5rem;
+    height: 2rem;
+    transition: 1.5s;
+}
+
+.contacto_boton:hover{
+transform: scale(1.2);
+}
+.contenedor-form-text{
+    display: flex;
+}
 
 
 
