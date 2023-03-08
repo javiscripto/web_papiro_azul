@@ -140,6 +140,10 @@ box-shadow: 0 2px 0 0 ;
     grid-area: parrafo8;
 }
 
+.grid-item img{
+    width: 100%;
+}
+
 
 .grid--img2{
     height: 200px;
