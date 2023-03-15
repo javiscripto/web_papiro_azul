@@ -1,0 +1,30 @@
+
+
+@import "./secundarios/reset";
+@import "./secundarios/header";
+@import"./secundarios/grid_index";
+@import"./secundarios/footer";
+@import"./secundarios/contacto";
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    .card{
+        display: flex;
+        align-items: center;
+        width: 200px;
+        height:400px;
+        background-color: aqua; 
+        margin: .5rem;
+        padding: .5rem;
+        & img{
+            width: 100%;
+            object-fit: cover;
+            overflow: hidden;
+            border-radius: 3px;
+        box-shadow: 0 2px 0 0 ;
+        }
+    }
+   
+}

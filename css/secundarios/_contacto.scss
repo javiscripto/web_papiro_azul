@@ -1,0 +1,13 @@
+.contenedor-form-text{
+    display: flex;
+    .contacto_container{
+        display: inline-block;
+        padding: 20px;
+        gap: 20px;
+        width: 50%;
+    }
+    .text_container{
+        justify-content: center;
+        width: 50%;
+    }
+}
