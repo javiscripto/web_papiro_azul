@@ -14,7 +14,9 @@
 
 header {
   min-height: 20vh;
-  background-image: linear-gradient(rgb(50, 84, 196), rgba(0, 204, 255, 0.205));
+  background-image: url(/img/encuadernacion.jpeg);
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -102,8 +104,46 @@ footer {
   margin-top: 20px;
 }
 
+.nosotros_container {
+  display: flex;
+  flex-direction: column;
+}
+.nosotros_container_img {
+  width: 50%;
+}
+.nosotros_container_img .logo {
+  width: 20%;
+}
+.nosotros_container_cards {
+  padding: 10px;
+  gap: 10px;
+}
+.nosotros_container .nosotros_cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nosotros_container .nosotros_cards .card {
+  width: 200px;
+}
+.nosotros_container .nosotros_cards .card img {
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+}
+.flex-container .card-slider {
+  text-align: center;
+  background-color: rgb(1, 121, 121);
+  border-radius: 10px;
+}
+
 .contenedor-form-text {
   display: flex;
+  flex-wrap: wrap;
 }
 .contenedor-form-text .contacto_container {
   display: inline-block;
