@@ -141,6 +141,29 @@ footer {
   border-radius: 10px;
 }
 
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+}
+.cardContainer .card {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 400px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+.cardContainer .card img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+  border-radius: 3px;
+  box-shadow: 0 2px 0 0;
+}
+
 .contenedor-form-text {
   display: flex;
   flex-wrap: wrap;
