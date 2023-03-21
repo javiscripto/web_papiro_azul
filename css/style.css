@@ -14,7 +14,7 @@
 
 header {
   min-height: 20vh;
-  background-image: url(/img/encuadernacion.jpeg);
+  background-image: url(.../img/encuadernacion.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -200,4 +200,29 @@ footer {
   overflow: hidden;
   border-radius: 3px;
   box-shadow: 0 2px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5rem;
+    background-color: rgba(240, 168, 35, 0.61);
+  }
+  .grid-container .grid-img1 {
+    display: none;
+  }
+  .grid-container .grid-img2 {
+    display: none;
+  }
+  .grid-container .grid-item {
+    background-color: rgba(71, 71, 240, 0.575);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .grid-container .grid-item img {
+    border-radius: 8px;
+    width: 80%;
+  }
 }/*# sourceMappingURL=style.css.map */
