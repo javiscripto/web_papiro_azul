@@ -9,6 +9,18 @@
 @import"./secundarios/servicios";
 @import"./secundarios/contacto";
 
+.first-letter{
+    text-align: center;
+    &::first-letter{
+        color: orange;
+       font-size: larger;
+       font-weight: bold;
+    }
+}
+main{
+    margin: 10px;
+    padding: 10px;
+}
 .flex-container{
     display: flex;
     flex-wrap: wrap;
