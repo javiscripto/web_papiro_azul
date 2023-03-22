@@ -43,4 +43,11 @@ main{
     }
    
 }
+a{
+    transition: .6s;
+    &:hover{
+        transform: scale(1.5);
+    }
+}
+
 @import"./secundarios/mediaQuerys"
