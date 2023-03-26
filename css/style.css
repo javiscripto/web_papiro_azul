@@ -34,6 +34,31 @@ header .nav {
   margin: 10px;
 }
 
+.fade-in {
+  transition: 0.8s;
+  animation: fade-in 2s ease-in;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.slide-right {
+  animation: slide-right 3s ease;
+}
+@keyframes slide-right {
+  0% {
+    transform: translateX(-100px) scale(0.1);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px) scale(1);
+  }
+}
 .grid-container {
   /* width: 700px; */
   display: grid;
@@ -139,6 +164,11 @@ footer {
   text-align: center;
   background-color: rgb(1, 121, 121);
   border-radius: 10px;
+  transition: 0.9s;
+}
+.flex-container .card-slider:hover {
+  transform: scale(1.2);
+  box-shadow: 10px rgb(0, 81, 255);
 }
 
 .cardContainer {

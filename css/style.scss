@@ -2,12 +2,14 @@
 
 @import "./secundarios/reset";
 @import "./secundarios/header";
+@import"./secundarios/animaciones";
 @import"./secundarios/grid_index";
 @import"./secundarios/footer";
 @import"./secundarios/nosotros";
 @import "./secundarios/productos";
 @import"./secundarios/servicios";
 @import"./secundarios/contacto";
+
 
 .first-letter{
     text-align: center;
@@ -49,5 +51,6 @@ a{
         transform: scale(1.5);
     }
 }
+
 
 @import"./secundarios/mediaQuerys"
