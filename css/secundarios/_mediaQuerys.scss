@@ -3,7 +3,7 @@
         display: flex;
         flex-wrap: wrap;
         margin: 1.5rem;
-        background-color: rgba(240, 168, 35, 0.61);
+        
         .grid-img1{
             display: none;
         }
@@ -11,7 +11,7 @@
             display: none;
         }
         .grid-item{
-            background-color: rgba(71, 71, 240, 0.575);
+           
             justify-content: center;
             align-items: center;
             text-align: center;

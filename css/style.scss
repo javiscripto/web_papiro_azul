@@ -35,6 +35,7 @@ main{
         background-color: aqua; 
         margin: .5rem;
         padding: .5rem;
+        transition: 1.5s;
         & img{
             width: 100%;
             object-fit: cover;
@@ -42,11 +43,18 @@ main{
             border-radius: 3px;
         box-shadow: 0 2px 0 0 ;
         }
+        &:hover{
+            transform: scale(1.1);
+            box-shadow:
+       inset 0 -3em 3em rgba(0, 0, 0, 0.724),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+        }
     }
    
 }
 a{
-    transition: .6s;
+    transition: .9s;
     &:hover{
         transform: scale(1.5);
     }
